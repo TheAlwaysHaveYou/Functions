@@ -1,0 +1,48 @@
+//
+//  GlobalProperty.pch
+//  Functions
+//
+//  Created by 范魁东 on 2019/11/7.
+//  Copyright © 2019 FanKD. All rights reserved.
+//
+
+#ifndef GlobalProperty_pch
+#define GlobalProperty_pch
+
+#import "KDBaseScrollView.h"
+#import "KDBaseTableView.h"
+#import "KDBaseCollectionView.h"
+#import "KDBaseTableViewCell.h"
+#import "KDBaseCollectionViewCell.h"
+
+#define KDSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+#define KDSharedAppWindow [UIApplication sharedApplication].keyWindow
+
+#define NotNilString(x) x?x:@""
+
+#define kSCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define kSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height//20:44
+
+#define iPhoneX_ (kStatusBarHeight>20?:NO)
+
+#define isIPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define kDesignWidth (isIPAD?768.0f:375.0f)
+
+#define kNavBarHeight (isIPAD?70:(iPhoneX_?88:64))
+#define kTabBarHeight (isIPAD?50:(iPhoneX_?83:49))
+#define kSafeBottomSpace (isIPAD?0:(iPhoneX_?34:0))
+
+#define FITSCALE(number)  ((number)*(MIN(kSCREEN_WIDTH, kSCREEN_HEIGHT)*1.0/kDesignWidth))//横竖屏切换的时候，XR对宽的判断有偏差
+
+#define IMGNAME(tip)     [UIImage imageNamed:tip]
+
+#define app_Name        [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"]
+#define app_Version     [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+#define app_Identifier  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"]
+#define app_DisplayName [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]
+
+
+#endif /* GlobalProperty_pch */
