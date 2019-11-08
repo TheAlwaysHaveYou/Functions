@@ -10,6 +10,10 @@
 
 @implementation KDLeftAlignedLayout
 
+/*
+ https://github.com/mokagio/UICollectionViewLeftAlignedLayout
+ */
+
 - (instancetype)init {
     self = [super init];
     if (self) {
