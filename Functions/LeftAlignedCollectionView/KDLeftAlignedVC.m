@@ -20,7 +20,6 @@
 
 @implementation KDLeftAlignedVC
 
-
 static NSString * const identifier = @"item";
 
 - (void)viewDidLoad {

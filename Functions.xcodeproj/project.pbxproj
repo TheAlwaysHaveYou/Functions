@@ -21,6 +21,12 @@
 		184B69D62374188D00BEF610 /* KDLeftAlignedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B69D52374188D00BEF610 /* KDLeftAlignedVC.m */; };
 		184B69D92374197300BEF610 /* KDLeftAlignedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B69D82374197300BEF610 /* KDLeftAlignedCell.m */; };
 		184B69DC2374199400BEF610 /* KDLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B69DB2374199400BEF610 /* KDLeftAlignedLayout.m */; };
+		185B50A223753F44008996D1 /* OnScreenRenderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50A123753F44008996D1 /* OnScreenRenderVC.m */; };
+		185B50A523753F6C008996D1 /* OnScreenRenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50A423753F6C008996D1 /* OnScreenRenderCell.m */; };
+		185B50AA237543D4008996D1 /* KDFpsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50A9237543D4008996D1 /* KDFpsLabel.m */; };
+		185B50AE23754C1C008996D1 /* KDPerformanceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50AD23754C1C008996D1 /* KDPerformanceUtil.m */; };
+		185B50B423756F5B008996D1 /* UIView+AddCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50B323756F5B008996D1 /* UIView+AddCorner.m */; };
+		185B50B723756FA7008996D1 /* OffScreenRenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50B623756FA7008996D1 /* OffScreenRenderCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +58,18 @@
 		184B69D82374197300BEF610 /* KDLeftAlignedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDLeftAlignedCell.m; sourceTree = "<group>"; };
 		184B69DA2374199400BEF610 /* KDLeftAlignedLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDLeftAlignedLayout.h; sourceTree = "<group>"; };
 		184B69DB2374199400BEF610 /* KDLeftAlignedLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDLeftAlignedLayout.m; sourceTree = "<group>"; };
+		185B50A023753F44008996D1 /* OnScreenRenderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnScreenRenderVC.h; sourceTree = "<group>"; };
+		185B50A123753F44008996D1 /* OnScreenRenderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnScreenRenderVC.m; sourceTree = "<group>"; };
+		185B50A323753F6C008996D1 /* OnScreenRenderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnScreenRenderCell.h; sourceTree = "<group>"; };
+		185B50A423753F6C008996D1 /* OnScreenRenderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnScreenRenderCell.m; sourceTree = "<group>"; };
+		185B50A8237543D4008996D1 /* KDFpsLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDFpsLabel.h; sourceTree = "<group>"; };
+		185B50A9237543D4008996D1 /* KDFpsLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDFpsLabel.m; sourceTree = "<group>"; };
+		185B50AC23754C1C008996D1 /* KDPerformanceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDPerformanceUtil.h; sourceTree = "<group>"; };
+		185B50AD23754C1C008996D1 /* KDPerformanceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDPerformanceUtil.m; sourceTree = "<group>"; };
+		185B50B223756F5B008996D1 /* UIView+AddCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AddCorner.h"; sourceTree = "<group>"; };
+		185B50B323756F5B008996D1 /* UIView+AddCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddCorner.m"; sourceTree = "<group>"; };
+		185B50B523756FA7008996D1 /* OffScreenRenderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OffScreenRenderCell.h; sourceTree = "<group>"; };
+		185B50B623756FA7008996D1 /* OffScreenRenderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffScreenRenderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +104,10 @@
 			children = (
 				184B69A8237408D300BEF610 /* AppDelegate.h */,
 				184B69A9237408D300BEF610 /* AppDelegate.m */,
+				185B50A623754383008996D1 /* Base */,
 				184B69C223740BC300BEF610 /* Main */,
 				184B69D3237417BA00BEF610 /* LeftAlignedCollectionView */,
+				185B509F23753F08008996D1 /* OnScreenRender */,
 				184B69B1237408D400BEF610 /* Assets.xcassets */,
 				184B69B3237408D400BEF610 /* LaunchScreen.storyboard */,
 				184B69BE23740A1E00BEF610 /* GlobalProperty.pch */,
@@ -100,11 +120,8 @@
 		184B69C223740BC300BEF610 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				18443DF12374FBC400B37AD8 /* KDBaseViewController.h */,
-				18443DF22374FBC400B37AD8 /* KDBaseViewController.m */,
 				184B69BF23740B5100BEF610 /* KDMainVC.h */,
 				184B69C023740B5100BEF610 /* KDMainVC.m */,
-				184B69C323740C1200BEF610 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -137,6 +154,51 @@
 				184B69DB2374199400BEF610 /* KDLeftAlignedLayout.m */,
 			);
 			path = LeftAlignedCollectionView;
+			sourceTree = "<group>";
+		};
+		185B509F23753F08008996D1 /* OnScreenRender */ = {
+			isa = PBXGroup;
+			children = (
+				185B50A023753F44008996D1 /* OnScreenRenderVC.h */,
+				185B50A123753F44008996D1 /* OnScreenRenderVC.m */,
+				185B50A323753F6C008996D1 /* OnScreenRenderCell.h */,
+				185B50A423753F6C008996D1 /* OnScreenRenderCell.m */,
+				185B50B523756FA7008996D1 /* OffScreenRenderCell.h */,
+				185B50B623756FA7008996D1 /* OffScreenRenderCell.m */,
+			);
+			path = OnScreenRender;
+			sourceTree = "<group>";
+		};
+		185B50A623754383008996D1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				18443DF12374FBC400B37AD8 /* KDBaseViewController.h */,
+				18443DF22374FBC400B37AD8 /* KDBaseViewController.m */,
+				185B50AB2375440D008996D1 /* Tool */,
+				185B50A7237543AC008996D1 /* Category */,
+				184B69C323740C1200BEF610 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		185B50A7237543AC008996D1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				185B50B223756F5B008996D1 /* UIView+AddCorner.h */,
+				185B50B323756F5B008996D1 /* UIView+AddCorner.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		185B50AB2375440D008996D1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				185B50A8237543D4008996D1 /* KDFpsLabel.h */,
+				185B50A9237543D4008996D1 /* KDFpsLabel.m */,
+				185B50AC23754C1C008996D1 /* KDPerformanceUtil.h */,
+				185B50AD23754C1C008996D1 /* KDPerformanceUtil.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,17 +271,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				184B69B8237408D400BEF610 /* main.m in Sources */,
+				185B50AA237543D4008996D1 /* KDFpsLabel.m in Sources */,
 				184B69CF23740CA500BEF610 /* KDBaseCollectionView.m in Sources */,
+				185B50A223753F44008996D1 /* OnScreenRenderVC.m in Sources */,
 				184B69C623740C2E00BEF610 /* KDBaseScrollView.m in Sources */,
 				184B69C923740C4E00BEF610 /* KDBaseTableView.m in Sources */,
 				184B69D92374197300BEF610 /* KDLeftAlignedCell.m in Sources */,
 				184B69D62374188D00BEF610 /* KDLeftAlignedVC.m in Sources */,
 				18443DF32374FBC400B37AD8 /* KDBaseViewController.m in Sources */,
+				185B50A523753F6C008996D1 /* OnScreenRenderCell.m in Sources */,
 				184B69CC23740C6300BEF610 /* KDBaseTableViewCell.m in Sources */,
+				185B50B423756F5B008996D1 /* UIView+AddCorner.m in Sources */,
 				184B69AA237408D300BEF610 /* AppDelegate.m in Sources */,
 				184B69D223740CC200BEF610 /* KDBaseCollectionViewCell.m in Sources */,
+				185B50AE23754C1C008996D1 /* KDPerformanceUtil.m in Sources */,
 				184B69DC2374199400BEF610 /* KDLeftAlignedLayout.m in Sources */,
 				184B69C123740B5100BEF610 /* KDMainVC.m in Sources */,
+				185B50B723756FA7008996D1 /* OffScreenRenderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

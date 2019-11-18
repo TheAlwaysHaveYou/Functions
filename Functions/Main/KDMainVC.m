@@ -8,6 +8,7 @@
 
 #import "KDMainVC.h"
 #import "KDLeftAlignedVC.h"
+#import "OnScreenRenderVC.h"
 
 @interface KDMainVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -23,7 +24,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.titleArr = @[@"CollectionItem左对齐",@""];
+    self.titleArr = @[@"CollectionItem左对齐",@"离屏渲染"];
     
     self.tableView = [[KDBaseTableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.rowHeight = 50;
@@ -54,6 +55,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
         KDLeftAlignedVC *vc = [[KDLeftAlignedVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 1) {
+        OnScreenRenderVC *vc = [[OnScreenRenderVC alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "KDMainVC.h"
+#import "KDFpsLabel.h"
 
 @interface AppDelegate ()
 
@@ -23,6 +24,13 @@
     [self.window makeKeyAndVisible];
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[KDMainVC alloc] init]];
+    
+    
+#ifdef DEBUG
+    KDFpsLabel *fpsLabel = [[KDFpsLabel alloc] initWithFrame:CGRectMake(0, kStatusBarHeight, kSCREEN_WIDTH, 22)];
+    [self.window addSubview:fpsLabel];
+    [self.window bringSubviewToFront:fpsLabel];
+#endif
     
     return YES;
 }
