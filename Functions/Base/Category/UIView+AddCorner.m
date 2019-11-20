@@ -10,7 +10,12 @@
 
 @implementation UIView (AddCorner)
 
-- (void)kd_drawRectWithRoundedCorner:(CGFloat)redius {
+- (void)kd_clipRoundedCorner:(CGFloat)redius backgroundColor:(UIColor *)backgroundColor {
+    UIImageView *imgV = [[UIImageView alloc] initWithImage:[self kd_drawRectWithRoundedCorner:redius backgroundColor:backgroundColor]];
+    [self insertSubview:imgV atIndex:0];
+}
+
+- (UIImage *)kd_drawRectWithRoundedCorner:(CGFloat)redius backgroundColor:(UIColor *)backgroundColor {
     /*
      第二个参数 opaque
      A Boolean flag indicating whether the bitmap is opaque. If you know the bitmap is fully opaque, specify YES to ignore the alpha channel and optimize the bitmap’s storage. Specifying NO means that the bitmap must include an alpha channel to handle any partially transparent pixels
@@ -18,9 +23,25 @@
      
      个人理解:png格式的图片保留了alpha通道  设置为NO， jpg没有alpha通道，设置为YES
      */
+    
+    CGFloat width = self.frame.size.width;
+    CGFloat height = self.frame.size.height;
+    
     UIGraphicsBeginImageContextWithOptions(self.frame.size, false, [UIScreen mainScreen].scale);
     CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetStrokeColorWithColor(context, backgroundColor.CGColor);
+    CGContextSetFillColorWithColor(context, backgroundColor.CGColor);
+    CGContextMoveToPoint(context, width/2, 0);
+    CGContextAddArcToPoint(context, width/2, 0, width, 0, redius);
+    CGContextAddArcToPoint(context, width, 0, width, height, redius);
+    CGContextAddArcToPoint(context, width, height, 0, height, redius);
+    CGContextAddArcToPoint(context, 0, height, 0, 0, redius);
+    CGContextAddArcToPoint(context, 0, 0, width/2, 0, redius);
+    CGContextDrawPath(context, kCGPathFillStroke);
     
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
 }
 
 @end

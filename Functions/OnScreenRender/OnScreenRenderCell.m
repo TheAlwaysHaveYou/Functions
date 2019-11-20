@@ -20,17 +20,15 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.clipView = [[UIView alloc] initWithFrame:self.bounds];
-        self.clipView.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.5];
-        self.clipView.layer.cornerRadius = frame.size.width/2;
-        self.clipView.layer.masksToBounds = YES;
+        [self.clipView kd_clipRoundedCorner:frame.size.width/2 backgroundColor:[[UIColor greenColor] colorWithAlphaComponent:0.5]];
         [self.contentView addSubview:self.clipView];
     }
     return self;
 }
 
 - (void)prepareForReuse {
-    self.clipView.layer.cornerRadius = self.frame.size.width/2;
-    self.clipView.layer.masksToBounds = YES;
+//    self.clipView.layer.cornerRadius = self.frame.size.width/2;
+//    self.clipView.layer.masksToBounds = YES;
 }
 
 @end

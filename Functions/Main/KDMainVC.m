@@ -59,8 +59,27 @@
     }else if (indexPath.row == 1) {
         OnScreenRenderVC *vc = [[OnScreenRenderVC alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 2) {
+        
+    }else if (indexPath.row == 3) {
+        
+    }else if (indexPath.row == 4) {
+        
+    }else if (indexPath.row == 5) {
+        
+    }else if (indexPath.row == 6) {
+        
+    }else if (indexPath.row == 7) {
+        
+    }else if (indexPath.row == 8) {
+        
+    }else if (indexPath.row == 9) {
+        
+    }else if (indexPath.row == 10) {
+        
+    }else if (indexPath.row == 11) {
+        
     }
 }
-
 
 @end

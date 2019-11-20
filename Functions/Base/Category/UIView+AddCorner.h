@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (AddCorner)
 //利用Core Graphics 画出圆角，解决离屏渲染
-- (void)kd_drawRectWithRoundedCorner:(CGFloat)redius;
+- (void)kd_clipRoundedCorner:(CGFloat)redius backgroundColor:(UIColor *)backgroundColor;
 
 @end
 

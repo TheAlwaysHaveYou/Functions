@@ -30,7 +30,7 @@ static NSString * const otherIdentifier = @"offscreen";
     self.offScreen = YES;
     
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-    layout.itemSize = CGSizeMake(10, 10);
+    layout.itemSize = CGSizeMake(40, 40);
     layout.minimumLineSpacing = 1;
     layout.minimumInteritemSpacing = 1;
     
@@ -47,11 +47,12 @@ static NSString * const otherIdentifier = @"offscreen";
 - (void)rightItemFunctionClick:(UIBarButtonItem *)item {
     self.offScreen = !self.isOffScreen;
     self.title = self.isOffScreen?@"当前触发离屏渲染":@"没有触发离屏渲染";
+    [self.collectionView reloadData];
 }
 
 #pragma mark - UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 5000;
+    return 1000;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
