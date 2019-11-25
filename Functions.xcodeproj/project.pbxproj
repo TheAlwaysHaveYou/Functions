@@ -27,6 +27,13 @@
 		185B50AE23754C1C008996D1 /* KDPerformanceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50AD23754C1C008996D1 /* KDPerformanceUtil.m */; };
 		185B50B423756F5B008996D1 /* UIView+AddCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50B323756F5B008996D1 /* UIView+AddCorner.m */; };
 		185B50B723756FA7008996D1 /* OffScreenRenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50B623756FA7008996D1 /* OffScreenRenderCell.m */; };
+		18BBAC1D2387B4770033DDA5 /* BottomListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC1C2387B4770033DDA5 /* BottomListVC.m */; };
+		18BBAC202387B48C0033DDA5 /* BottomListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC1F2387B48C0033DDA5 /* BottomListView.m */; };
+		18BBAC242387C7020033DDA5 /* KDWeChatCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC232387C7020033DDA5 /* KDWeChatCameraVC.m */; };
+		18BBAC302387D4040033DDA5 /* KDWeChatPhotoPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC2F2387D4040033DDA5 /* KDWeChatPhotoPreviewView.m */; };
+		18BBAC332387D41A0033DDA5 /* KDWeChatCaptureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC322387D41A0033DDA5 /* KDWeChatCaptureButton.m */; };
+		18BBAC362387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC352387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.m */; };
+		F834226F71EF0617D83DB11E /* Pods_Functions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8D97FC102A8DF767311BD0 /* Pods_Functions.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +77,21 @@
 		185B50B323756F5B008996D1 /* UIView+AddCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddCorner.m"; sourceTree = "<group>"; };
 		185B50B523756FA7008996D1 /* OffScreenRenderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OffScreenRenderCell.h; sourceTree = "<group>"; };
 		185B50B623756FA7008996D1 /* OffScreenRenderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffScreenRenderCell.m; sourceTree = "<group>"; };
+		18BBAC1B2387B4770033DDA5 /* BottomListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomListVC.h; sourceTree = "<group>"; };
+		18BBAC1C2387B4770033DDA5 /* BottomListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomListVC.m; sourceTree = "<group>"; };
+		18BBAC1E2387B48C0033DDA5 /* BottomListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomListView.h; sourceTree = "<group>"; };
+		18BBAC1F2387B48C0033DDA5 /* BottomListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomListView.m; sourceTree = "<group>"; };
+		18BBAC222387C7020033DDA5 /* KDWeChatCameraVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDWeChatCameraVC.h; sourceTree = "<group>"; };
+		18BBAC232387C7020033DDA5 /* KDWeChatCameraVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDWeChatCameraVC.m; sourceTree = "<group>"; };
+		18BBAC2E2387D4040033DDA5 /* KDWeChatPhotoPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDWeChatPhotoPreviewView.h; sourceTree = "<group>"; };
+		18BBAC2F2387D4040033DDA5 /* KDWeChatPhotoPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDWeChatPhotoPreviewView.m; sourceTree = "<group>"; };
+		18BBAC312387D41A0033DDA5 /* KDWeChatCaptureButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDWeChatCaptureButton.h; sourceTree = "<group>"; };
+		18BBAC322387D41A0033DDA5 /* KDWeChatCaptureButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDWeChatCaptureButton.m; sourceTree = "<group>"; };
+		18BBAC342387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDWeChatVideoPreviewVC.h; sourceTree = "<group>"; };
+		18BBAC352387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDWeChatVideoPreviewVC.m; sourceTree = "<group>"; };
+		634C6F0B7E4AF57F6F6ADCC8 /* Pods-Functions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Functions.release.xcconfig"; path = "Target Support Files/Pods-Functions/Pods-Functions.release.xcconfig"; sourceTree = "<group>"; };
+		6B241CB6E097E9B28968564C /* Pods-Functions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Functions.debug.xcconfig"; path = "Target Support Files/Pods-Functions/Pods-Functions.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8D97FC102A8DF767311BD0 /* Pods_Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Functions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F834226F71EF0617D83DB11E /* Pods_Functions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +111,8 @@
 			children = (
 				184B69A7237408D300BEF610 /* Functions */,
 				184B69A6237408D300BEF610 /* Products */,
+				67877CDE8B2A18359CA2B645 /* Pods */,
+				9AEAF25D18A5E3521F891DFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +133,8 @@
 				184B69C223740BC300BEF610 /* Main */,
 				184B69D3237417BA00BEF610 /* LeftAlignedCollectionView */,
 				185B509F23753F08008996D1 /* OnScreenRender */,
+				18BBAC1A2387B43F0033DDA5 /* ListView */,
+				18BBAC212387C6E10033DDA5 /* Camera */,
 				184B69B1237408D400BEF610 /* Assets.xcassets */,
 				184B69B3237408D400BEF610 /* LaunchScreen.storyboard */,
 				184B69BE23740A1E00BEF610 /* GlobalProperty.pch */,
@@ -201,6 +228,49 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		18BBAC1A2387B43F0033DDA5 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				18BBAC1B2387B4770033DDA5 /* BottomListVC.h */,
+				18BBAC1C2387B4770033DDA5 /* BottomListVC.m */,
+				18BBAC1E2387B48C0033DDA5 /* BottomListView.h */,
+				18BBAC1F2387B48C0033DDA5 /* BottomListView.m */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		18BBAC212387C6E10033DDA5 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				18BBAC222387C7020033DDA5 /* KDWeChatCameraVC.h */,
+				18BBAC232387C7020033DDA5 /* KDWeChatCameraVC.m */,
+				18BBAC2E2387D4040033DDA5 /* KDWeChatPhotoPreviewView.h */,
+				18BBAC2F2387D4040033DDA5 /* KDWeChatPhotoPreviewView.m */,
+				18BBAC342387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.h */,
+				18BBAC352387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.m */,
+				18BBAC312387D41A0033DDA5 /* KDWeChatCaptureButton.h */,
+				18BBAC322387D41A0033DDA5 /* KDWeChatCaptureButton.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		67877CDE8B2A18359CA2B645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B241CB6E097E9B28968564C /* Pods-Functions.debug.xcconfig */,
+				634C6F0B7E4AF57F6F6ADCC8 /* Pods-Functions.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AEAF25D18A5E3521F891DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF8D97FC102A8DF767311BD0 /* Pods_Functions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184B69BB237408D400BEF610 /* Build configuration list for PBXNativeTarget "Functions" */;
 			buildPhases = (
+				61A6DB1AF2543B8B64ED0703 /* [CP] Check Pods Manifest.lock */,
 				184B69A1237408D300BEF610 /* Sources */,
 				184B69A2237408D300BEF610 /* Frameworks */,
 				184B69A3237408D300BEF610 /* Resources */,
+				C8ADDBE43C27DDE651D5E6E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,19 +337,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61A6DB1AF2543B8B64ED0703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Functions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8ADDBE43C27DDE651D5E6E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Functions/Pods-Functions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		184B69A1237408D300BEF610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BBAC362387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.m in Sources */,
 				184B69B8237408D400BEF610 /* main.m in Sources */,
 				185B50AA237543D4008996D1 /* KDFpsLabel.m in Sources */,
+				18BBAC1D2387B4770033DDA5 /* BottomListVC.m in Sources */,
+				18BBAC202387B48C0033DDA5 /* BottomListView.m in Sources */,
 				184B69CF23740CA500BEF610 /* KDBaseCollectionView.m in Sources */,
+				18BBAC302387D4040033DDA5 /* KDWeChatPhotoPreviewView.m in Sources */,
 				185B50A223753F44008996D1 /* OnScreenRenderVC.m in Sources */,
 				184B69C623740C2E00BEF610 /* KDBaseScrollView.m in Sources */,
+				18BBAC332387D41A0033DDA5 /* KDWeChatCaptureButton.m in Sources */,
 				184B69C923740C4E00BEF610 /* KDBaseTableView.m in Sources */,
 				184B69D92374197300BEF610 /* KDLeftAlignedCell.m in Sources */,
 				184B69D62374188D00BEF610 /* KDLeftAlignedVC.m in Sources */,
+				18BBAC242387C7020033DDA5 /* KDWeChatCameraVC.m in Sources */,
 				18443DF32374FBC400B37AD8 /* KDBaseViewController.m in Sources */,
 				185B50A523753F6C008996D1 /* OnScreenRenderCell.m in Sources */,
 				184B69CC23740C6300BEF610 /* KDBaseTableViewCell.m in Sources */,
@@ -419,13 +537,14 @@
 		};
 		184B69BC237408D400BEF610 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B241CB6E097E9B28968564C /* Pods-Functions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VW8U9YA9E8;
 				GCC_PREFIX_HEADER = Functions/GlobalProperty.pch;
 				INFOPLIST_FILE = Functions/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,13 +557,14 @@
 		};
 		184B69BD237408D400BEF610 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634C6F0B7E4AF57F6F6ADCC8 /* Pods-Functions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VW8U9YA9E8;
 				GCC_PREFIX_HEADER = Functions/GlobalProperty.pch;
 				INFOPLIST_FILE = Functions/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

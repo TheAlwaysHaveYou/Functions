@@ -9,6 +9,8 @@
 #import "KDMainVC.h"
 #import "KDLeftAlignedVC.h"
 #import "OnScreenRenderVC.h"
+#import "BottomListVC.h"
+#import "KDWeChatCameraVC.h"
 
 @interface KDMainVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -24,7 +26,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.titleArr = @[@"CollectionItem左对齐",@"离屏渲染"];
+    self.titleArr = @[@"CollectionItem左对齐",@"离屏渲染",@"上划菜单",@"微信自定义相机"];
     
     self.tableView = [[KDBaseTableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.rowHeight = 50;
@@ -60,9 +62,11 @@
         OnScreenRenderVC *vc = [[OnScreenRenderVC alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row == 2) {
-        
+        BottomListVC *vc = [[BottomListVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row == 3) {
-        
+        KDWeChatCameraVC *vc = [[KDWeChatCameraVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row == 4) {
         
     }else if (indexPath.row == 5) {
