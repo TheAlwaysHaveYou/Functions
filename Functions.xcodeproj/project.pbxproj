@@ -27,6 +27,7 @@
 		185B50AE23754C1C008996D1 /* KDPerformanceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50AD23754C1C008996D1 /* KDPerformanceUtil.m */; };
 		185B50B423756F5B008996D1 /* UIView+AddCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50B323756F5B008996D1 /* UIView+AddCorner.m */; };
 		185B50B723756FA7008996D1 /* OffScreenRenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B50B623756FA7008996D1 /* OffScreenRenderCell.m */; };
+		18A37D7623C428AC003C8C7B /* MyCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A37D7523C428AC003C8C7B /* MyCustomModel.m */; };
 		18BBAC1D2387B4770033DDA5 /* BottomListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC1C2387B4770033DDA5 /* BottomListVC.m */; };
 		18BBAC202387B48C0033DDA5 /* BottomListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC1F2387B48C0033DDA5 /* BottomListView.m */; };
 		18BBAC242387C7020033DDA5 /* KDWeChatCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBAC232387C7020033DDA5 /* KDWeChatCameraVC.m */; };
@@ -77,6 +78,8 @@
 		185B50B323756F5B008996D1 /* UIView+AddCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddCorner.m"; sourceTree = "<group>"; };
 		185B50B523756FA7008996D1 /* OffScreenRenderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OffScreenRenderCell.h; sourceTree = "<group>"; };
 		185B50B623756FA7008996D1 /* OffScreenRenderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffScreenRenderCell.m; sourceTree = "<group>"; };
+		18A37D7423C428AC003C8C7B /* MyCustomModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCustomModel.h; sourceTree = "<group>"; };
+		18A37D7523C428AC003C8C7B /* MyCustomModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCustomModel.m; sourceTree = "<group>"; };
 		18BBAC1B2387B4770033DDA5 /* BottomListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomListVC.h; sourceTree = "<group>"; };
 		18BBAC1C2387B4770033DDA5 /* BottomListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomListVC.m; sourceTree = "<group>"; };
 		18BBAC1E2387B48C0033DDA5 /* BottomListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomListView.h; sourceTree = "<group>"; };
@@ -250,6 +253,8 @@
 				18BBAC352387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.m */,
 				18BBAC312387D41A0033DDA5 /* KDWeChatCaptureButton.h */,
 				18BBAC322387D41A0033DDA5 /* KDWeChatCaptureButton.m */,
+				18A37D7423C428AC003C8C7B /* MyCustomModel.h */,
+				18A37D7523C428AC003C8C7B /* MyCustomModel.m */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 				18BBAC362387D5AE0033DDA5 /* KDWeChatVideoPreviewVC.m in Sources */,
 				184B69B8237408D400BEF610 /* main.m in Sources */,
 				185B50AA237543D4008996D1 /* KDFpsLabel.m in Sources */,
+				18A37D7623C428AC003C8C7B /* MyCustomModel.m in Sources */,
 				18BBAC1D2387B4770033DDA5 /* BottomListVC.m in Sources */,
 				18BBAC202387B48C0033DDA5 /* BottomListView.m in Sources */,
 				184B69CF23740CA500BEF610 /* KDBaseCollectionView.m in Sources */,

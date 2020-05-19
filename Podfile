@@ -10,6 +10,6 @@ target 'Functions' do
 	
 	pod 'MJExtension'
 	pod 'YYKit'
-  	pod 'ReactiveObjC'
-
+  pod 'ReactiveObjC'
+	pod 'FMDB'
 end

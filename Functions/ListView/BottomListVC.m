@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
     BottomListView *listView = [[BottomListView alloc] init];
     [listView showInView:self.view];
 }

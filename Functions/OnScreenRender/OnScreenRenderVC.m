@@ -30,7 +30,7 @@ static NSString * const otherIdentifier = @"offscreen";
     self.offScreen = YES;
     
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-    layout.itemSize = CGSizeMake(40, 40);
+    layout.itemSize = CGSizeMake(20, 20);
     layout.minimumLineSpacing = 1;
     layout.minimumInteritemSpacing = 1;
     
@@ -52,7 +52,7 @@ static NSString * const otherIdentifier = @"offscreen";
 
 #pragma mark - UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 1000;
+    return 10000;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
